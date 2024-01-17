@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BOSTON INTERIORS</title>
+    <link href="stylesheet.css" rel="stylesheet" type="text/css" />
+    <link href="assets/FaviconAV.jpg" rel="icon" type="image/x-icon" />
+    <script>
+      function audioplay() {
+        var myAudio = document.getElementById("audioclip");
+        if (myAudio.paused) {
+          myAudio.play();
+        } else {
+          myAudio.pause();
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <div class="main">
+      <div class="page">
+        <div class="header">
+          <div class="header-section">
+            <header><h1>BOSTON INTERIORS</h1></header>
+          </div>
+          <menu>
+            <li class="active"><a href="index.html">Home</a></li>
+            <li><a href="gallery.html">Walk Through</a></li>
+            <li><a href="reachout.html">Reach Out</a></li>
+            <li><a href="citation.html">Citation</a></li>
+          </menu>
+        </div>
+        <div class="content">
+          <div class="left-panel">
+            <div class="left-panel-content">
+              <h2 class="title">ABOUT US</h2>
+              <br />
+              <p>
+                Step into the enchanting world of Boston Interiors, where every space unfolds like the pages of a captivating story, seamlessly blending aesthetics with functionality. Our sanctuary transcends the conventional realms of design, presenting an immersive experience where each corner is a unique chapter, and every detail is a carefully curated expression of artistry.
+                <!-- <br/><br/><br/> -->
+At Boston Interiors, we view design not as a mere arrangement of furniture but as a living testament to your personality and deepest desires. Our designs are meticulously crafted to breathe life into your spaces, offering more than just visual appeal—they are a reflection of your aspirations and a celebration of your individuality.
+<!-- <br/><br/><br/> -->
+Immerse yourself in a symphony of dynamic colors, where each hue is thoughtfully chosen to evoke emotion, complemented by luxurious textures that invite tactile exploration. Our designs feature captivating shapes that transcend the ordinary, creating an ambiance that is as functional as it is aesthetically pleasing.
+<!-- <br/><br/><br/> -->
+In redefining the essence of interior design, we go beyond the traditional role of transforming spaces. Instead, we embark on a journey to craft atmospheres that harmonize seamlessly with the unique pulse of your lifestyle. At Boston Interiors, we believe that your living space should be more than just a backdrop; it should be a canvas upon which the art of living is celebrated.
+<!-- <br/><br/><br/> -->
+So, come and experience the artistry of living at Boston Interiors. Your journey to a uniquely designed sanctuary begins here, where every element is an ode to the beauty of individuality and the joy of living authenticallyen here, where the art of living is truly celebrated.
+              </p>
+              <br />
+              <div class="video-container">
+                <video controls>
+                  <source src="assets/video.mp4" type="video/mp4" />
+                </video>
+                <br /><br />
+                <audio
+                  src="assets/audio.mp3"
+                  autoplay
+                  loop
+                  id="audioclip"
+                ></audio>
+                <button type="button" onClick="audioplay()">
+                  Audio
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="right-panel">
+            <div class="right-panel-content">
+              <h3>PRICING</h3>
+              <table class="content-table">
+                <thead>
+                  <tr>
+                    <th>Regular</th>
+                    <th>Classic</th>
+                    <th>Deluxe</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Requires Support</td>
+                    <td>Requires Support</td>
+                    <td>Full Support</td>
+                  </tr>
+                  <tr>
+                    <td>No Exterior Changes</td>
+                    <td>With Exterior Changes</td>
+                    <td>With Exterior Changes</td>
+                  </tr>
+                  <tr>
+                    <td>$1500</td>
+                    <td>$1900</td>
+                    <td>$2600</td>
+                  </tr>
+                </tbody>
+              </table>
+              <br />
+              <details>
+                <summary>OUR SKILLS AND TECHNIQUES</summary>
+                <br />
+
+                <p>  
+                  Mastering the Art of Spatial Alchemy, Color Symphony, and Furniture Elegance, our expertise goes beyond creating mere spaces. We craft living experiences through thoughtful spatial planning, harmonious color palettes, and curated furniture selections. Our approach involves creating captivating focal points, setting the perfect ambiance with lighting, and infusing tactile richness through the use of textures
+                </p>
+              </details>
+              <br />
+              <h3>Contact Information</h3>
+              <br />
+              <p>Phone: <a href="tel:+4733378901">+1 857 763 8188</a></p>
+              <br />
+              <p>
+                Email:
+                <a href="mailto:bhagat.ar@northeastern.edu"
+                  >bhagat.ar@northeastern.edu</a
+                >
+              <br />
+              </p>
+              <!-- <br />
+              <br /> -->
+            </div>
+          </div>
+        </div>
+        <footer>
+          <p>Boston Interiors associated with Northeastern University</p>
+        </footer>
+      </div>
+    </div>
+  </body>
+</html>

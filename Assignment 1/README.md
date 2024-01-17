@@ -73,5 +73,5 @@
 
 - `<div>`: Groups and styles elements.
 
-## favicon 
+## Favicon 
 Favicon is specified using the link tag in HTML, typically with attributes like rel="icon" and href="path/to/favicon.ico" in the head section of the document.

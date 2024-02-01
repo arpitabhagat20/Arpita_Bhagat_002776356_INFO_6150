@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Records</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="table.css">
+</head>
+<body>
+    <div id="userInfo">
+        <h2>Full Name: Arpita Bhagat</h2>
+        <h2>NUID: 002776356</h2>
+    </div>
+    <table id="studentTable">
+        <thead>
+            <tr>
+                <th></th> <!-- For the checkbox and arrow -->
+                <th>STUDENT</th>
+                <th>ADVISOR</th>
+                <th>AWARD STATUS</th>
+                <th>SEMESTER</th>
+                <th>TYPE</th>
+                <th>BUDGET #</th>
+                <th>PERCENTAGE</th>
+                <th>DELETE</th>
+                <th>EDIT</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Student rows will be added here dynamically -->
+        </tbody>
+    </table>
+    <div id="buttons">
+        <button id="submitButton" disabled>Submit Selected Awards</button>
+        <button id="addStudentButton">Add New Student</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -62,5 +62,8 @@ Custom functions are defined in `_functions.scss` to generate dynamic CSS values
 ### Inheritance
 Utilized the inheritance feature in `_cards.scss` by extending a shared set of styles to various card components, ensuring consistency across all card designs. 
 
+### Modules
+The @use rule is a modern way to load mixins, functions, and variables from other Sass stylesheets, referred to as modules `_variables.scss`
+
 
 

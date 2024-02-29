@@ -59,4 +59,8 @@ Mixins are defined in `_mixins.scss` and provide a way to reuse sets of styles a
 ### Functions
 Custom functions are defined in `_functions.scss` to generate dynamic CSS values based on function parameters.
 
+### Inheritance
+Utilized the inheritance feature in `_cards.scss` by extending a shared set of styles to various card components, ensuring consistency across all card designs. 
+
+
 

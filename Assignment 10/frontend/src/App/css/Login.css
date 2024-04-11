@@ -1,0 +1,16 @@
+.card {
+    width: 100%;
+  }
+  
+  .card-header {
+    background-color: #57c7cb;
+    color: aliceblue;
+    font-weight: bold;
+    width: 100%;
+  }
+
+  .Button {
+    border-color: #57c7cb;
+    background-color: #57c7cb;
+    color: aliceblue;
+  }
